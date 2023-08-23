@@ -1,0 +1,16 @@
+.offer {
+    &__title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 40px;
+
+        margin: 46px 0 32px;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+
+        margin-bottom: 90px;
+    }
+}

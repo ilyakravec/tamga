@@ -1,0 +1,28 @@
+.about {
+  margin-bottom: 90px;
+}
+.about__title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.about__text {
+  margin-bottom: 56px;
+  width: 100%;
+  max-width: 769px;
+}
+.about__inner {
+  display: flex;
+  -moz-column-gap: 72px;
+       column-gap: 72px;
+}
+.about__inner__item__img {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.about__inner__item__text {
+  width: 100%;
+  max-width: 170px;
+  text-align: center;
+}/*# sourceMappingURL=about.css.map */

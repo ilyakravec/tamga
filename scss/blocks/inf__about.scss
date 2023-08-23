@@ -1,0 +1,67 @@
+.inf__about{
+
+    margin-bottom: 90px;
+
+    &__inner{
+        display: flex;
+        column-gap: 30px;
+    }
+
+    &__btn{
+        display: inline-block;
+        color: #fff;
+        padding: 16px 24px;
+        background-color: #3E3E3E;
+
+    }
+
+    &__inner-left{
+        padding-top: 32px;
+        padding-left:32px;
+
+        background-color: #C0EDFB;
+        
+        width: 100%;
+        max-width: 570px;
+    }
+
+    &__inner-left__title{
+        font-weight: 600;
+        font-size: 30px;
+
+        margin-bottom: 8px;
+    }
+
+    &__inner-left__text{
+        margin-bottom: 24px;
+    }
+
+    &__inner-left__btn{
+        margin-bottom: 40px;
+    }
+
+    &__inner-right{
+        padding-top:32px;
+        padding-left:32px;
+
+        background-color: #D3F4CE;
+
+        width: 100%;
+        max-width: 570px;
+    }
+
+    &__inner-right__title{
+        font-weight: 600;
+        font-size: 30px;
+
+        margin-bottom: 8px;
+    }
+
+    &__inner-right__text{
+        margin-bottom: 20px;
+    }
+
+    &__inner-right__btn{
+        margin-bottom: 20px;
+    }
+}

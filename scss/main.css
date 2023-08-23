@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap");
+@import "./blocks/offer.css";
+@import "./blocks/about.css";
+@import "./blocks/medicine.css";
+@import "./blocks/benefits.css";
+@import "./blocks/inf__about.css";
+@import "./blocks/certificate.css";
+@import "./blocks/slider.css";
+@import "./blocks/modals.css";
+@import "./blocks/checkbox.css";
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 15px;
+  color: #3e3e3e;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 15px;
+  }
+  .about__inner {
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: center;
+  }
+  .medicine__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .inf__about__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+  }
+  .certificate__inner {
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .benefits__inner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .certificate__inner {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .benefits__inner {
+    grid-template-columns: 1fr;
+  }
+  .certificate__inner {
+    display: flex;
+    justify-content: center;
+  }
+  .inf__about__inner-left {
+    padding: 32px 32px 0 32px;
+  }
+  .inf__about__inner-right {
+    padding: 32px 32px 0 32px;
+  }
+  .benefits__inner__item {
+    margin: 0 auto;
+  }
+  .medicine__inner {
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */

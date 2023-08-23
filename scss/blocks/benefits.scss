@@ -1,0 +1,36 @@
+.benefits{
+
+    margin-bottom: 90px;
+
+    &__title{
+        font-weight: 600;
+        font-size: 30px;
+
+        margin-bottom: 40px;
+    }
+
+    &__inner{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap:40px;
+        grid-row-gap:40px;
+    }
+
+    img{
+        margin-bottom: 4px;
+    }
+
+    &__inner__item__title{
+        font-size: 18px;
+        font-weight: 500;
+
+        margin-bottom: 4px;
+    }
+
+    &__inner__item__text{
+        width: 100%;
+        max-width: 350px;
+
+        line-height: 24.75px;
+    }
+}

@@ -1,0 +1,37 @@
+.about{
+
+    margin-bottom: 90px;
+
+    &__title{
+        font-weight: 700;
+        font-size: 30px;
+
+        margin-bottom: 8px;
+    }
+
+    &__text{
+        margin-bottom: 56px;
+        width: 100%;
+        max-width: 769px;
+    }
+
+    &__inner{
+        display: flex;
+        column-gap: 72px;
+        
+
+    }
+
+
+    &__inner__item__img{
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    &__inner__item__text{
+        width: 100%;
+        max-width: 170px;
+        text-align: center;
+    }
+}

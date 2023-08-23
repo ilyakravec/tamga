@@ -1,0 +1,29 @@
+.medicine{
+
+    margin-bottom: 90px;
+
+    &__inner-right__title{
+        font-weight: 600;
+        font-size: 30px;
+
+        margin-bottom: 8px;
+    }
+
+    &__inner-right__text{
+        width: 100%;
+        max-width: 769px;
+    }
+
+    &__inner{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column: 30px;
+    }
+
+    &__inner-left{
+        width: 100%;
+        max-width: 370px;
+        display: block;
+    }
+
+}
