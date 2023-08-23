@@ -62,6 +62,12 @@ body {
     .certificate__inner {
         justify-content: center;
     }
+    .slider__btn--right {
+        right: 0;
+    }
+    .slider__btn--left {
+        left: 0;
+    }
 }
 
 @media (max-width: 992px) {
@@ -76,6 +82,9 @@ body {
         flex-wrap: wrap;
         row-gap: 40px;
     }
+}
+
+@media (max-width: 584px) {
 }
 
 @media (max-width: 576px) {
@@ -100,5 +109,29 @@ body {
     }
     .medicine__inner {
         align-items: center;
+    }
+
+    .modal {
+        &__dialog {
+            width: 340px;
+            height: 750px;
+        }
+
+        &__dialog--offer {
+            width: 400px;
+            height: 820px;
+        }
+
+        &__dialog__inner__wrapper {
+            flex-direction: column;
+        }
+
+        &__btn {
+            margin-top: 12px;
+        }
+    }
+
+    .input--half {
+        margin-bottom: 12px;
     }
 }

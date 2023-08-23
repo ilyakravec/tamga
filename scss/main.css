@@ -133,6 +133,12 @@ body.no-scroll {
   .certificate__inner {
     justify-content: center;
   }
+  .slider__btn--right {
+    right: 0;
+  }
+  .slider__btn--left {
+    left: 0;
+  }
 }
 @media (max-width: 992px) {
   .benefits__inner {
@@ -163,5 +169,22 @@ body.no-scroll {
   }
   .medicine__inner {
     align-items: center;
+  }
+  .modal__dialog {
+    width: 340px;
+    height: 750px;
+  }
+  .modal__dialog--offer {
+    width: 400px;
+    height: 820px;
+  }
+  .modal__dialog__inner__wrapper {
+    flex-direction: column;
+  }
+  .modal__btn {
+    margin-top: 12px;
+  }
+  .input--half {
+    margin-bottom: 12px;
   }
 }/*# sourceMappingURL=main.css.map */

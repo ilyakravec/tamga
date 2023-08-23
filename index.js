@@ -4,6 +4,14 @@ var owl = $(".owl-carousel");
 owl.owlCarousel({
     loop: true,
     margin: 30,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 3,
+        },
+    },
 });
 $(".slider__btn--right").click(function () {
     owl.trigger("next.owl.carousel");
