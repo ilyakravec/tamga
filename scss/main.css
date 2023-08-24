@@ -7,6 +7,7 @@
 @import './blocks/slider.css';
 @import './blocks/modals.css';
 @import './blocks/checkbox.css';
+@import './blocks/mixin.css';
 * {
   padding: 0px;
   margin: 0px;

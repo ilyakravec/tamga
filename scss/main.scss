@@ -1,9 +1,10 @@
 @import '../resetter.scss';
 @import '../variables.scss';
+
 body {
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-size: 15px;
-	color: #3e3e3e;
+	color: $main;
 
 	&.no-scroll {
 		overflow: hidden;
@@ -26,7 +27,7 @@ body {
 @import './blocks/slider.css';
 @import './blocks/modals.css';
 @import './blocks/checkbox.css';
-
+@import './blocks/mixin.css';
 //responsive
 
 @media (max-width: 1200px) {

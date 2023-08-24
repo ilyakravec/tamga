@@ -4,7 +4,7 @@
 	&__title {
 		font-weight: 600;
 		font-size: 30px;
-
+		@include h2;
 		margin-bottom: 8px;
 	}
 
