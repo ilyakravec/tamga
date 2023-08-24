@@ -1,137 +1,198 @@
-@import "../resetter.scss";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap");
-
+@import '../resetter.scss';
+@import '../variables.scss';
 body {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-size: 15px;
-    color: #3e3e3e;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 15px;
+	color: #3e3e3e;
 
-    &.no-scroll {
-        overflow: hidden;
-    }
+	&.no-scroll {
+		overflow: hidden;
+	}
 }
 
 .container {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-    box-sizing: border-box;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
-@import "./blocks/offer.css";
-@import "./blocks/about.css";
-@import "./blocks/medicine.css";
-@import "./blocks/benefits.css";
-@import "./blocks/inf__about.css";
-@import "./blocks/certificate.css";
-@import "./blocks/slider.css";
-@import "./blocks/modals.css";
-@import "./blocks/checkbox.css";
+@import './blocks/offer.css';
+@import './blocks/about.css';
+@import './blocks/medicine.css';
+@import './blocks/benefits.css';
+@import './blocks/inf__about.css';
+@import './blocks/certificate.css';
+@import './blocks/slider.css';
+@import './blocks/modals.css';
+@import './blocks/checkbox.css';
 
 //responsive
 
 @media (max-width: 1200px) {
-    .container {
-        padding: 0 15px;
-    }
+	.container {
+		padding: 0 15px;
+	}
 
-    .about {
-        &__inner {
-            flex-wrap: wrap;
-            row-gap: 40px;
-            justify-content: center;
-        }
-    }
+	.about {
+		&__inner {
+			flex-wrap: wrap;
+			row-gap: 40px;
+			margin: 0 auto;
+			justify-content: center;
+		}
+	}
 
-    .medicine {
-        &__inner {
-            display: flex;
-            flex-direction: column;
-            row-gap: 40px;
-        }
-    }
+	.medicine {
+		&__inner {
+			display: flex;
+			flex-direction: column;
+			row-gap: 40px;
+		}
+	}
 
-    .inf__about {
-        &__inner {
-            display: flex;
-            flex-direction: column;
-            row-gap: 40px;
-            align-items: center;
-        }
-    }
-    .certificate__inner {
-        justify-content: center;
-    }
-    .slider__btn--right {
-        right: 0;
-    }
-    .slider__btn--left {
-        left: 0;
-    }
+	.inf__about {
+		&__inner {
+			display: flex;
+			flex-direction: column;
+			row-gap: 40px;
+			align-items: center;
+		}
+	}
+	.certificate__inner {
+		justify-content: center;
+	}
+	.slider__btn--right {
+		right: 0;
+	}
+	.slider__btn--left {
+		left: 0;
+	}
 }
 
 @media (max-width: 992px) {
-    .benefits {
-        &__inner {
-            grid-template-columns: 1fr 1fr;
-        }
-    }
-
-    .certificate__inner {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 40px;
-    }
-}
-
-@media (max-width: 584px) {
+	.benefits {
+		&__inner {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+	.certificate__inner {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 40px;
+	}
 }
 
 @media (max-width: 576px) {
-    .benefits__inner {
-        grid-template-columns: 1fr;
-    }
+	.about {
+		margin-bottom: 50px;
+	}
+	.offer__img {
+		margin-bottom: 50px;
+	}
+	.offer__title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.about__title {
+		font-size: 22px;
+		line-height: 23px;
+	}
+	.medicine {
+		margin-bottom: 50px;
+	}
+	.medicine__inner-right__title {
+		font-size: 22px;
+		line-height: 23px;
+	}
+	.benefits {
+		margin-bottom: 50px;
+	}
+	.benefits__title {
+		font-size: 22px;
+		line-height: 23px;
+	}
+	.benefits__inner__item__title {
+		font-size: 15px;
+	}
+	.benefits__inner__item__text {
+		font-size: 13px;
+		max-width: none;
+	}
+	.benefits__inner__item {
+		width: 100%;
+	}
+	.benefits__inner {
+		grid-template-columns: 1fr;
+	}
 
-    .certificate__inner {
-        display: flex;
-        justify-content: center;
-    }
+	.certificate__inner {
+		display: flex;
+		justify-content: center;
+	}
+	.inf__about {
+		margin-bottom: 50px;
+	}
+	.inf__about__inner-left {
+		padding: 32px 32px 0 32px;
+	}
 
-    .inf__about__inner-left {
-        padding: 32px 32px 0 32px;
-    }
+	.inf__about__inner-right {
+		padding: 32px 32px 0 32px;
+	}
 
-    .inf__about__inner-right {
-        padding: 32px 32px 0 32px;
-    }
-    .benefits__inner__item {
-        margin: 0 auto;
-    }
-    .medicine__inner {
-        align-items: center;
-    }
+	.benefits__inner__item {
+		margin: 0 auto;
+	}
 
-    .modal {
-        &__dialog {
-            width: 340px;
-            height: 750px;
-        }
+	.medicine__inner {
+		align-items: center;
+	}
 
-        &__dialog--offer {
-            width: 400px;
-            height: 820px;
-        }
+	.modal {
+		&__dialog {
+			width: 340px;
+			height: 610px;
+		}
 
-        &__dialog__inner__wrapper {
-            flex-direction: column;
-        }
+		&__dialog--offer {
+			width: 400px;
+			height: 680px;
+		}
 
-        &__btn {
-            margin-top: 12px;
-        }
-    }
+		&__dialog__inner__wrapper {
+			flex-direction: column;
+		}
 
-    .input--half {
-        margin-bottom: 12px;
-    }
+		&__btn {
+			margin-top: 12px;
+		}
+	}
+
+	.input--half {
+		margin-bottom: 12px;
+	}
+
+	.modal__dialog__inner__title {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.modal__dialog__inner__text {
+		font-size: 12px;
+		line-height: 18px;
+		margin-bottom: 10px;
+	}
+	.label {
+		font-size: 13px;
+		font-weight: 600;
+	}
+	.input {
+		margin-bottom: 6px;
+	}
+	.modal__dialog__inner__subtext {
+		line-height: 17px;
+	}
+	.checkbox--second {
+		margin-bottom: 12px;
+	}
 }

@@ -1,37 +1,37 @@
 .slider {
-    display: flex;
+	display: flex;
 
-    position: relative;
+	position: relative;
 
-    &__btn {
-        display: block;
+	&__btn {
+		display: block;
 
-        width: 40px;
-        height: 40px;
+		width: 40px;
+		height: 40px;
 
-        border: 1px solid #eaeaea;
-        background-color: rgba(255, 255, 255, 0.8);
+		border: 1px solid #eaeaea;
+		background-color: rgba(255, 255, 255, 0.8);
 
-        transition: 0.2s ease-in;
-        &:hover {
-            background-color: #3e3e3e;
-            border: 1px #3e3e3e solid;
-        }
-    }
+		transition: 0.2s ease-in;
+		&:hover {
+			background-color: #3e3e3e;
+			border: 1px #3e3e3e solid;
+		}
 
-    &__btn--left {
-        position: absolute;
-        top: 50%;
-        left: -21px;
-        transform: translateY(-50%);
-        z-index: 10;
-    }
+		&--left {
+			position: absolute;
+			top: 50%;
+			left: -21px;
+			transform: translateY(-50%);
+			z-index: 10;
+		}
 
-    &__btn--right {
-        position: absolute;
-        top: 50%;
-        right: -21px;
-        transform: translateY(-50%);
-        z-index: 10;
-    }
+		&--right {
+			position: absolute;
+			top: 50%;
+			right: -21px;
+			transform: translateY(-50%);
+			z-index: 10;
+		}
+	}
 }

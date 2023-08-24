@@ -1,0 +1,11 @@
+@mixin h1 {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48.75px;
+}
+@mixin h2 {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 39px;
+}
+$main-color: #3e3e3e;
