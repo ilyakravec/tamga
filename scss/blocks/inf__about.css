@@ -16,10 +16,12 @@
 .inf__about__inner-left__title {
   font-weight: 600;
   font-size: 30px;
+  line-height: 39px;
   margin-bottom: 8px;
 }
 .inf__about__inner-left__text {
   margin-bottom: 24px;
+  line-height: 24.75px;
 }
 .inf__about__inner-right {
   padding-top: 32px;
@@ -28,18 +30,20 @@
   width: 100%;
   max-width: 570px;
 }
+.inf__about__inner-right__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  margin-bottom: 8px;
+}
+.inf__about__inner-right__text {
+  margin-bottom: 20px;
+  line-height: 24.75px;
+}
 .inf__about__btn {
   display: inline-block;
   color: #fff;
   padding: 16px 24px;
   background-color: #3e3e3e;
   margin-bottom: 40px;
-}
-.inf__about__inner-right__title {
-  font-weight: 600;
-  font-size: 30px;
-  margin-bottom: 8px;
-}
-.inf__about__inner-right__text {
-  margin-bottom: 20px;
 }/*# sourceMappingURL=inf__about.css.map */

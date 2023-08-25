@@ -1,3 +1,7 @@
+$main-color: #3e3e3e;
+$secondary-color: #808080;
+$line-height-text: 24.75px;
+
 @mixin h1 {
 	font-weight: 700;
 	font-size: 40px;
@@ -8,4 +12,9 @@
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 39px;
+}
+
+@mixin h2__dialog {
+	font-size: 24px;
+	font-weight: 700;
 }

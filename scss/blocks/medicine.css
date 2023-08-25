@@ -9,11 +9,13 @@
 .medicine__inner-right__title {
   font-weight: 600;
   font-size: 30px;
+  line-height: 39px;
   margin-bottom: 8px;
 }
 .medicine__inner-right__text {
   width: 100%;
   max-width: 769px;
+  line-height: 24.75px;
 }
 .medicine__inner-left {
   width: 100%;

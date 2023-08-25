@@ -1,9 +1,9 @@
+@import '../../variables';
+
 .about {
 	margin-bottom: 90px;
 
 	&__title {
-		font-weight: 600;
-		font-size: 30px;
 		@include h2;
 		margin-bottom: 8px;
 	}
@@ -12,6 +12,7 @@
 		margin-bottom: 56px;
 		width: 100%;
 		max-width: 769px;
+		line-height: $line-height-text;
 	}
 
 	&__inner {

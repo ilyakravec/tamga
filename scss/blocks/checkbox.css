@@ -15,7 +15,7 @@
 }
 .checkbox__label {
   font-size: 15px;
-  color: rgba(128, 128, 128, 0.7);
+  color: #808080;
   padding-left: 30px;
 }
 .checkbox__label:before {
