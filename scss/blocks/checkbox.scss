@@ -28,7 +28,7 @@
 			width: 24px;
 			height: 24px;
 
-			border: 1px solid #eaeaea;
+			border: 1px solid $gray-color;
 			position: absolute;
 			top: -2px;
 			left: 0;
@@ -55,5 +55,5 @@
 
 .checkbox__input:checked + .checkbox__label:before {
 	background: url(/img/checkmark__confirmed.svg) center no-repeat;
-	border: 1px solid #326d28;
+	border: 1px solid $green-xmark;
 }

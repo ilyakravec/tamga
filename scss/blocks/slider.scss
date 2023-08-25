@@ -11,8 +11,8 @@
 		width: 40px;
 		height: 40px;
 
-		border: 1px solid #eaeaea;
-		background-color: rgba(255, 255, 255, 0.8);
+		border: 1px solid $gray-color;
+		background-color: $light-gray-color;
 
 		transition: 0.2s ease-in;
 		&:hover {

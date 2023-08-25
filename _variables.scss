@@ -1,6 +1,13 @@
 $main-color: #3e3e3e;
 $secondary-color: #808080;
+$gray-color: #eaeaea;
+$light-gray-color: rgba(255, 255, 255, 0.8);
+$white: #fff;
+$gray-modal-color: rgba(62, 62, 62, 0.3);
 $line-height-text: 24.75px;
+$green-xmark: #326d28;
+$green-color: #d3f4ce;
+$blue-color: #c0edfb;
 
 @mixin h1 {
 	font-weight: 700;
